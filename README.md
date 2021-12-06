@@ -1,5 +1,4 @@
-# tarea-3
-La tarea está basada en los códigos y/o comandos de la ayudantía
+# La tarea está basada en los códigos y/o comandos de la ayudantía
 1. Instalar nginx en caso de no tenerlo instalado, luego editar el archivo de configuración nginx.conf ubicado en etc/nginx y agregar el archivo de configuración "configuracion.conf" como en ayudantía
 2. Luego con docker instalado usar los siguientes comandos para crear la base de datos master y la slave
   
