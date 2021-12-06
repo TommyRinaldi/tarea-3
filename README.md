@@ -22,7 +22,13 @@ La tarea está basada en los códigos y/o comandos de la ayudantía
    -e POSTGRESQL_REPLICATION_USER=my_repl_user \
    -e POSTGRESQL_REPLICATION_PASSWORD=my_repl_password \
    bitnami/postgresql:latest
-  
-3. Luego crear en la base de datos por defecto postgres la tabla "tabla" con las columnas "numero" correpondiente a un integer y la columna "string" correspondiente a un varchar
+   
+3. Luego en la base de datos por defecto postgres ejecutar la siguiente query 
+ 
+    create table tabla (
+    numero numeric,
+    string varchar
+    );
+    
 4. Ejecutar en tres terminales flask run --port 3000, flask run --port 3001 y flask run --port 3002 respectivamente
 5. Abrir un navegador en localhost/inventario
