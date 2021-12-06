@@ -29,5 +29,5 @@
     string varchar
     );
     
-4. Ejecutar en tres terminales flask run --port 3000, flask run --port 3001 y flask run --port 3002 respectivamente
+4. Instalar la librería psycopg2 en caso de no tenerla y ejecutar en tres terminales flask run --port 3000, flask run --port 3001 y flask run --port 3002 respectivamente
 5. Abrir un navegador en localhost/inventario
