@@ -22,7 +22,7 @@
    -e POSTGRESQL_REPLICATION_PASSWORD=my_repl_password \
    bitnami/postgresql:latest
    
-3. Luego en la base de datos por defecto postgres ejecutar la siguiente query 
+3. Luego en el master en la base de datos por defecto postgres ejecutar la siguiente query 
  
     create table tabla (
     numero numeric,
